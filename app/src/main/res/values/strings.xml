@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">TravelWorld</string>
     <string name="btn_splash">Get Started</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="login">Login\n</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="hello">Hello,</string>
+    <string name="welcome_back">Welcome Back!</string>
 </resources>

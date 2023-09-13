@@ -33,9 +33,16 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures{
+        dataBinding = true
+    }
 }
 
 dependencies {
+    val work_version = "2.8.1"
+    // Kotlin + coroutines
+    implementation("androidx.work:work-runtime-ktx:$work_version")
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
